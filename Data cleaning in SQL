@@ -1,0 +1,34 @@
+-- Calculate the length of the name column
+SELECT 
+  LEN(name) AS description_length 
+FROM 
+  grid
+  
+-- Select the first 25 characters from the left of the description column
+SELECT 
+  LEFT(description, 25) AS first_25_left 
+FROM 
+  grid;
+  
+-- Select column name  from the Table
+SELECT name
+FROM 
+  Table;
+
+
+-- Select all data from the Table with Where and Order By conditions
+SELECT *
+From Table
+Where Name = " "
+Order by ____ ;
+  
+  
+--ALTER TABLE 
+ALTER TABLE 
+Add Column Nvarchar(255);
+
+
+--
+  
+  
+  
